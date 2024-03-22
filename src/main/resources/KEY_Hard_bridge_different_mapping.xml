@@ -1,0 +1,11 @@
+<?xml version="1.0"?>  
+<class>  
+	<key>
+		<name>KEY1</name>  
+	    <mapping>test.name,comp.name</mapping>
+	</key>
+	<key>
+		<name>KEY2</name>  
+	    <mapping>cp.name,comp.name</mapping>
+	</key>
+</class>

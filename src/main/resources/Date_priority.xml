@@ -1,0 +1,25 @@
+<?xml version="1.0"?>  
+<class>  
+    <table>  
+        <name>persons</name>  
+        <alias>test</alias>
+        <condition>
+        	<left>birthday</left>
+        	<operator>"&gt;="</operator>
+        	<right>2010-01-01</right>
+        	<listRight></listRight>
+        </condition>
+        <condition>
+        	<left>birthday</left>
+        	<operator>"NOT IN"</operator>
+        	<right></right>
+        	<listRight>2010-01-01,2010-01-02</listRight>
+        </condition>
+        <condition>
+        	<left>birthday</left>
+        	<operator>"&lt;="</operator>
+        	<right>2021-01-01</right>
+        	<listRight></listRight>
+        </condition>
+    </table>
+</class>  

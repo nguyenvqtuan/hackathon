@@ -1,0 +1,25 @@
+<?xml version="1.0"?>  
+<class>  
+    <table>  
+        <name>persons</name>  
+        <alias>TEST</alias>  
+        <condition>
+        	<left>TEST.name</left>
+        	<operator>"NOT IN"</operator>
+        	<right></right>
+        	<listRight>'Zzzz','sSsss','aaa','ssss'</listRight>
+        </condition>
+        <condition>
+        	<left>TEST.name</left>
+        	<operator>"IN"</operator>
+        	<right></right>
+        	<listRight>'ssss','Tuan'</listRight>
+        </condition>
+        <condition>
+        	<left>age</left>
+        	<operator>"NOT IN"</operator>
+        	<right></right>
+        	<listRight>100,NULL</listRight>
+        </condition>
+    </table>
+</class>  

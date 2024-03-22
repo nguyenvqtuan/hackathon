@@ -1,0 +1,13 @@
+<?xml version="1.0"?>  
+<class>  
+    <table>  
+        <name>persons</name>  
+        <alias>TEST</alias>  
+        <condition>
+        	<left>TEST.name</left>
+        	<operator>"LIKE"</operator>
+        	<right>a%_</right>
+        	<listRight></listRight>
+        </condition>
+    </table>
+</class>  
